@@ -501,49 +501,7 @@ Enter the number upto which you wanna see the table
 >* * 
 >* 
 
-####20. 1D Array
-	    #include <stdio.h>  
-	  
-	  void  main()  
-	{  
-	    int arr[10]; 
-	    int i;  
-	       printf("\n\nRead and Print elements of an array:\n");
-	       printf("-----------------------------------------\n");	
-	  
-	    printf("Input 10 elements in the array :\n");  
-	    for(i=0; i<10; i++)  
-	    {  
-		    printf("element - %d : ",i);
-	        scanf("%d", &arr[i]);  
-	    }  
-	  
-	    printf("\nElements in array are: ");  
-	    for(i=0; i<10; i++)  
-	    {  
-	        printf("%d  ", arr[i]);  
-	    } 
-	    printf("\n");	
-	}
-
-#####OUTPUT:
-
->  Read and Print elements of an array:
->-----------------------------------------
->Input 10 elements in the array :
->element - 0 : 1
->element - 1 : 3
->element - 2 : 4
->element - 3 : 2
->element - 4 : 6
->element - 5 : 8
->element - 6 : 5
->element - 7 : 7
->element - 8 : 0
->element - 9 : 9
->
->Elements in array are: 1  3  4  2  6  8  5  7  0  9 
-####21. Maximum Size of an array
+####20.Maximum Size of an array
 	#include <stdio.h>
 	
 	#define MAX_SIZE 100  // Maximum array size
@@ -599,43 +557,7 @@ Enter the number upto which you wanna see the table
 >9
 >Maximum element is present at location 4 and it's value is 9.
 
-####22. 2D Array
-	#include<stdio.h>
-	int main(){
-	   /* 2D array declaration*/
-	   int disp[2][3];
-	   /*Counter variables for the loop*/
-	   int i, j;
-	   for(i=0; i<2; i++) {
-	      for(j=0;j<3;j++) {
-	         printf("Enter value for disp[%d][%d]:", i, j);
-	         scanf("%d", &disp[i][j]);
-	      }
-	   }
-	 
-	   printf("Two Dimensional array elements:\n");
-	   for(i=0; i<2; i++) {
-	      for(j=0;j<3;j++) {
-	         printf("%d ", disp[i][j]);
-	         if(j==2){
-	            printf("\n");
-	         }
-	      }
-	   }
-	   return 0;
-	}
-
-#####OUTPUT:
->Enter value for disp[0][0]:2
->Enter value for disp[0][1]:3
->Enter value for disp[0][2]:2
->Enter value for disp[1][0]:3
->Enter value for disp[1][1]:4
->Enter value for disp[1][2]:2
->Two Dimensional array elements:
->2 3 2 
->3 4 2 
-####23. Sum of two matrices
+####21. Sum of two matrices
     #include <stdio.h>
      
     int main()
@@ -691,7 +613,7 @@ Enter the number upto which you wanna see the table
 >3       6       10
 >8       9       15
 
-####24.   Transpose of matrix
+####22.   Transpose of matrix
 	    #include<stdio.h>
 	void main()
 	{ 
@@ -738,7 +660,7 @@ Enter the number upto which you wanna see the table
 >
 >Transpose of matrix is:
 >127459	
-####25. Substraction of two matrices
+####23. Substraction of two matrices
 	    #include <stdio.h>
 	     
 	    int main()
@@ -790,7 +712,7 @@ Enter the number upto which you wanna see the table
 >-4      -7
 >4       3
 
-####26. Multiplication of two matrices   
+####24. Multiplication of two matrices   
     
 	    #include <stdio.h>
 	 
@@ -866,7 +788,7 @@ Enter the number upto which you wanna see the table
 >5292    7480
 >
 
-####27. Square of a number using function    
+####25. Square of a number using function    
 	     #include<stdio.h>
 	
 	int square(int); // function prototype declaration.
@@ -891,7 +813,7 @@ Enter the number upto which you wanna see the table
 #####OUTPUT:	
 >Enter your number:6
 >Square of 6 is 36.
-####28. Swaping call by value
+####26. Swaping call by value
 	#include <stdio.h>
 	 
 	 
@@ -935,7 +857,7 @@ Enter the number upto which you wanna see the table
 >x = 5
 >y = 8
 >
-####29. Swapping call by reference
+####27. Swapping call by reference
 	    #include <stdio.h>
 	    void swap(int *n1, int *n2);
 	    int main()
@@ -962,7 +884,7 @@ Enter the number upto which you wanna see the table
 >5
 >num1 = 5
 >num2 = 3
-####30. Factorial using recursion   
+####28. Factorial using recursion   
 	    #include<stdio.h>
 	int main()
 	{
@@ -987,7 +909,7 @@ Enter the number upto which you wanna see the table
 #####OUTPUT:    
 >Enter a positive integer: 5
 >Factorial of 5 = 120    
-####31. Fibonacci series using recursion    
+####29. Fibonacci series using recursion    
 	    #include<stdio.h>
 	     
 	    int Fibonacci(int);
@@ -1027,7 +949,7 @@ Enter the number upto which you wanna see the table
 >1
 >2
 >
-####32. Structure    
+####30. Structure    
 	    #include <stdio.h>
 	struct student
 	{
@@ -1088,7 +1010,7 @@ Enter the number upto which you wanna see the table
 >Name: Blacky
 >Marks: 42.0
 
-####33. Pointers
+####31. Pointers
 	#include<stdio.h>
 	int main()
 	{
@@ -1106,265 +1028,3 @@ Enter the number upto which you wanna see the table
 >10
 >-1306961936
 
-####34. Addition using Pointers
-	    #include <stdio.h>
-	     
-	    int main()
-	    {
-	       int first, second, *p, *q, sum;
-	     
-	       printf("Enter two integers to add\n");
-	       scanf("%d%d", &first, &second);
-	     
-	       p = &first;
-	       q = &second;
-	     
-	       sum = *p + *q;
-	     
-	       printf("Sum of the numbers = %d\n", sum);
-	     
-	       return 0;
-	    }
-#####OUTPUT:	
->Enter two integers to add
->4
->65
->Sum of the numbers = 69
->
-
-
-####35. Pointers to an array
-	#include<stdio.h> 
-	  
-	int main() 
-	{ 
-	  int arr[5] = { 1, 2, 3, 4, 5 }; 
-	  int *ptr = arr; 
-	  
-	  printf("%p\n", ptr); 
-	  return 0; 
-	} 
-	
-#####OUTPUT:
->0x7ffd4b542230
-
-
-####36. Pointers to a function
-	#include <stdio.h> 
-	
-	void fun(int a) 
-	{ 
-	    printf("Value of a is %d\n", a); 
-	} 
-	  
-	int main() 
-	{  
-	    void (*fun_ptr)(int) = fun;
-	  
-	    fun_ptr(10);   
-	  
-	    return 0; 
-	}
-	
-#####OUTPUT:
->Value of a is 10
-
-
-####37. Printing values of an array using pointers
-          #include<stdio.h>
-	void main()
-	{
-	    int a[5]= {5,4,6,8,9};
-	    int *p=&a[0];
-	    int i;
-	   
-	    for(i=0; i<5; i++)
-	        printf("\nArray[%d] is %d ",i,*(p+i));
-	    for(i=0; i<5; i++)
-	        printf("\n %d at %u ",*(p+i),(p+i)); 
-	  }
-	  
-#####OUTPUT:
->Enter two integers to add
->58
->94
->Sum of the numbers = 152
-
-
-####38. Bubble Sort
-    #include <stdio.h>
-     
-    int main()
-    {
-      int array[100], n, c, d, swap;
-     
-      printf("Enter number of elements\n");
-      scanf("%d", &n);
-     
-      printf("Enter %d integers\n", n);
-     
-      for (c = 0; c < n; c++)
-        scanf("%d", &array[c]);
-     
-      for (c = 0 ; c < n - 1; c++)
-      {
-        for (d = 0 ; d < n - c - 1; d++)
-        {
-          if (array[d] > array[d+1]) /* For decreasing order use < */
-          {
-            swap       = array[d];
-            array[d]   = array[d+1];
-            array[d+1] = swap;
-          }
-        }
-      }
-     
-      printf("Sorted list in ascending order:\n");
-     
-      for (c = 0; c < n; c++)
-         printf("%d\n", array[c]);
-     
-      return 0;
-    }
-#####OUTPUT:
->Enter number of elements
->5
->Enter 5 integers
->23
->4
->54
->87
->98
->Sorted list in ascending order:
->4
->23
->54
->87
->98
-####39. Quick Sort Using Recursion
-	    #include <stdio.h>
-	
-	 
-	
-	    void quicksort (int [], int, int);
-	
-	 
-	
-	      int main()
-	
-	{
-	
-	    int list[50];
-	
-	    int size, i;
-	
-	 
-	
-	    printf("Enter the number of elements: ");
-	
-	    scanf("%d", &size); 
-	
-	    printf("Enter the elements to be sorted:\n");
-	
-	    for (i = 0; i < size; i++)
-	
-	    {
-	
-	        scanf("%d", &list[i]);
-	
-	    } 
-	
-	    quicksort(list, 0, size - 1);
-	
-	    printf("After applying quick sort\n");
-	
-	    for (i = 0; i < size; i++)
-	
-	    {
-	
-	        printf("%d ", list[i]);
-	
-	    }
-	
-	    printf("\n");
-	
-	 
-	
-	    return 0;
-	
-	}
-	
-	void quicksort(int list[], int low, int high)
-
-    {
-
-    int pivot, i, j, temp;
-
-    if (low < high)
-
-    {
-
-        pivot = low;
-
-        i = low;
-
-        j = high;
-
-        while (i < j) 
-
-        {
-
-            while (list[i] <= list[pivot] && i <= high)
-
-            {
-
-                i++;
-
-            }
-
-            while (list[j] > list[pivot] && j >= low)
-
-            {
-
-                j--;
-
-            }
-
-            if (i < j)
-
-            {
-
-                temp = list[i];
-
-                list[i] = list[j];
-
-                list[j] = temp;
-
-            }
-
-        }
-
-        temp = list[j];
-
-        list[j] = list[pivot];
-
-        list[pivot] = temp;
-
-        quicksort(list, low, j - 1);
-
-        quicksort(list, j + 1, high);
-
-    }
-
-    }
-#####OUTPUT:
-> Enter the number of elements: 5
->Enter the elements to be sorted:
->45
->32
->76
->455
->34
->After applying quick sort
->32 34 45 76 455    
-	
