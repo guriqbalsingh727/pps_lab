@@ -9,7 +9,7 @@
 **Year-**  1st
 **Submitted to-** prof. Ranjodh Kaur
 
-####1. Hello Budding Engineers		
+#### 1. Hello Budding Engineers		
 		#include<stdio.h>
 	     int main()
 	     {
@@ -27,7 +27,7 @@
       puts(Ropar,Punjab, India");
     return 0;
     }
-#####OUTPUT:
+##### OUTPUT:
 >My address:
 Sangrur, Punjab, India
 
@@ -42,7 +42,7 @@ Sangrur, Punjab, India
         printf("sum=%d\n",sum);
          return 0;
         }
-#####OUTPUT:
+##### OUTPUT:
 >Enter two numbers
 12
 26
@@ -62,7 +62,7 @@ sum=38
 
           return 0;
           }
-#####OUTPUT:
+##### OUTPUT:
 >Enter the temperature in celsius: 32
 >
 >Temperature in Fahrenheit: 89.60 F         
@@ -83,7 +83,7 @@ sum=38
 	}
 	return 0;
 	}
-#####OUTPUT:
+##### OUTPUT:
 >Enter a number 7
 Enter the number upto which you wanna see the table
 10
@@ -99,7 +99,7 @@ Enter the number upto which you wanna see the table
 7*10=70
 
 
-####6. Perimeter and area of circle
+#### 6. Perimeter and area of circle
 	#include<stdio.h>
 	#define PI 3.14
 	int main()
@@ -113,12 +113,12 @@ Enter the number upto which you wanna see the table
 	printf("Perimeter of the circle=%f\n",peri);
 	return 0;
 	}
-#####OUTPUT:
+#####  OUTPUT:
 >Enter the radius of circle
 >5
 >Area of the circle=78.500000
 >Perimeter of the circle=31.400000	
-####7. Reverse 
+#### 7. Reverse 
     #include <stdio.h>
     int main()
     {
@@ -134,10 +134,10 @@ Enter the number upto which you wanna see the table
         printf("Reversed Number = %d", reversedNumber);
         return 0;
     }
-#####OUTPUT:
+##### OUTPUT:
 >Enter an integer: 1356
 >Reversed Number = 6531
-####8. Swapping without using a third variable   
+#### 8. Swapping without using a third variable   
         #include <stdio.h>
      
     int main()
@@ -157,7 +157,7 @@ Enter the number upto which you wanna see the table
      
       return 0;
     }
-#####OUTPUT:
+##### OUTPUT:
 >Enter an integer: 1356
 >Reversed Number = 6531
 ####9. Even Odd
